@@ -18,7 +18,7 @@ jobs:
         uses: actions/checkout@v2
       - name: clone
         run: git clone https://github.com/gudrak/gen.git
-        run: cd gen/
+        run: |cd gen
       - name: Generate ISO
         run: |
           chmod +x ./gen.sh
