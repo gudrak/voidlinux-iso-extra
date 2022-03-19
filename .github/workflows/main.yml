@@ -7,7 +7,7 @@ jobs:
       options: --privileged
     defaults:
       run:
-        shell: sh
+        shell: bash
     steps:
       - name: Get current date
         id: date
